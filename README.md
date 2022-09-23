@@ -378,7 +378,7 @@ Again, the NUT User's Guide and Techno Tim video are good references. For a stra
 Additionally, Grafana is extensible enough that you could even take SNMP out of the mix altogether and use `upsc` or similar to capture the data. 
 
 ### Configuring SNMP v3
-SNMP is a bit more complex than SNMP v2c, but it also encryption and is significantly more secure. For a deep understanding of Net-SNMP configuration, you should check out [their docs](http://www.net-snmp.org/docs/man/). 
+SNMP v3 is a bit more complex than SNMP v2c, but it also uses encryption and is significantly more secure. For a deep understanding of Net-SNMP configuration, you should check out [their docs](http://www.net-snmp.org/docs/man/). 
 
 If you're just testing, a quick way to get started creating SNMP v3 users is to use the `net-snmp-config --create-snmpv3-user` command. 
 
