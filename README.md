@@ -54,7 +54,7 @@ This process *should* work with a wide variety of UPS systems with a USB port. T
 1. Access your computer's terminal (e.g., via SSH) 
 2. Download the script
 ```
-wget https://raw.githubusercontent.com/dzomaya/PiNutPepperAndEgg/main/installscripts/nutinstall.sh
+wget https://raw.githubusercontent.com/dzomaya/NUTandRpi/main/scripts/nutinstall.sh
 ```
 ![image](https://user-images.githubusercontent.com/17661803/160880661-2927291b-6bc1-4521-a2aa-e3bfa0ee2760.png)
 3. Make the script executable 
