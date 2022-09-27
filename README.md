@@ -120,7 +120,7 @@ Our script won't work for everyone and you learn more doing it manually anyway, 
 ⚠️ **Enterprise-grade security not included** We're assuming you're on a home or test network and we're not doing any production-grade security stuff. The HTTP and SNMP v2c protocols both transmit data in plaintext.  You can — and I encourage you to — modify the installation script to meet specific security requirements but we're leaving that up to you, brave Internet Stranger.  
 
 ### Prerequisites 
-* A supported UPS. I recommend something like <Jim's UPS> or <Rusty's UPS> 
+* A supported UPS.
 * A Linux computer running [Raspberry Pi OS](https://www.raspberrypi.com/software/), Ubuntu, or a similar operating system
     * Just about any \*nix system should work, our commands just assume Ubuntu-like stuff such as the `apt` command
 * root/sudo privleges to run commands 
