@@ -16,7 +16,7 @@ Here's an Asciicast of what the script method looks like:
 [![asciicast](https://asciinema.org/a/523264.svg)](https://asciinema.org/a/523264)
 
 ## Why are we doing this?  
-The [Network UPS Tools (NUT) project](https://networkupstools.org/) does a lot of good work in our industry. A lot of the UPS integrations you see in various systems (e.g. NAS devices and console servers) are made possible by NUT. Simply put, here is a lot of cool stuff you can do with NUT. 
+The [Network UPS Tools (NUT) project](https://networkupstools.org/) does a lot of good work in our industry. A lot of the UPS integrations you see in various systems (e.g., NAS devices and console servers) are made possible by NUT. Simply put, there is a lot of cool stuff you can do with NUT. 
 
 But, we often see these problems:
 * People don't know all the cool stuff NUT can do
@@ -363,7 +363,7 @@ https://rogerprice.org/NUT/
 
 ### Operating System and UPS shutdown
 
-Often, you'll want to gracefully shutdown operating systems and shut down UPS output based on certain UPS events. `upsmon` and section 6.3 of the [NUT User's Manual](https://networkupstools.org/docs/user-manual.chunked/ar01s06.html#UPS_shutdown) is a good place to start. There is [a full PDF version of the manual here] (https://networkupstools.org/docs/user-manual.pdf). 
+Often, you'll want to gracefully shutdown operating systems and shut down UPS output based on certain UPS events. `upsmon` and section 6.3 of the [NUT User's Manual](https://networkupstools.org/docs/user-manual.chunked/ar01s06.html#UPS_shutdown) is a good place to start. There is [a full PDF version of the manual here](https://networkupstools.org/docs/user-manual.pdf). 
 
 Additionally, [YouTuber Techno Tim has a video that walks through setting up multiple UPSes, a NUT Server and clients (including the Windows WinClient), and system shutdown](https://www.youtube.com/watch?v=vyBP7wpN72c). 
 
