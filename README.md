@@ -171,7 +171,7 @@ IPMI library not found. IPMI search disabled.
 You'll need everything under (and including) `[nutdev1]` for the next step.
 ![image](https://user-images.githubusercontent.com/17661803/160893706-69e5ffbf-3a77-446e-a602-b82fe8ee51cc.png)
 
-2. Use a text editor (e.g. `nano` or `vi`) to edit /etc/nut/ups.conf and append the output from step 1. Using our example output, the uncommented section of the ups.conf file should look like this:
+2. Use a text editor (e.g., `nano` or `vi`) to edit /etc/nut/ups.conf and append the output from step 1. Using our example output, the uncommented section of the ups.conf file should look like this:
 ```
 maxretry = 3
 [nutdev1]
@@ -278,13 +278,13 @@ systemctl restart apache2
 
 ### Install Net-SNMP
 1.  Use `apt` to install the `snmp`, `snmpd`, `libsnmp-dev`, and `snmp-mibs-downloader` packages
-'''
+```
 sudo apt install snmp snmpd libsnmp-dev snmp-mibs-downloader
-'''
+```
 ![image](https://user-images.githubusercontent.com/17661803/160903695-aa09cfef-c587-41ec-a76f-9eb6ad6c83e7.png)
 
 ### Configure Net-SNMP
-1. Use a text editor (e.g. `nano` or `vi`) to create an /etc/snmp/snmpd.conf file and add your SNMP v2c community string to the begining. To create a read-only `tripplite`, add this entry (edit your community string to be something only you know):
+1. Use a text editor (e.g., `nano` or `vi`) to create an /etc/snmp/snmpd.conf file and add your SNMP v2c community string to the begining. To create a read-only `tripplite`, add this entry (edit your community string to be something only you know):
 ```
 rocommunity tripplite
 ```
