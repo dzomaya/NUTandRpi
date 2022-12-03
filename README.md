@@ -409,6 +409,33 @@ NET-SNMP-EXTEND-MIB::nsExtendOutLine."battruntimeest".1 = STRING: 65535
 ```
 ![SNMP v3 user for NUT UPS test configuration](https://user-images.githubusercontent.com/17661803/167519590-65beb360-3662-4f07-9d98-8a1a7617d5d3.png)
 
+## How to uninstall
+
+If you want to undo what the script did and uninstall the packages it installs, follow these steps.
+⚠️ **Warning** `rm -rf` is mentioned and used in some of the steps below. `rm -rf` recursively deletes files. Be careful! 
+
+1. Use remove the packages the script installs with this command:
+
+```
+sudo apt-get remove  nut nut-cgi snmp snmpd libsnmp-dev snmp-mibs-downloader
+```
+
+2. Remove the unneeded packages left behind after you removed the packages:
+```
+sudo apt-get autoremove
+```
+3. Remove the `snmpd.conf` file the script modifies
+
+```
+sudo rm /etc/snmp/snmpd.conf
+```
+*Note:* If you want to remove the MIB files in `/etc/snmp/` and the `/etc/snmp` directory completely, use `sudo rm /etc/snmp/`. 
+
+4. Remove the `/etc/nut` directory and it's contents:
+```
+sudo rm -rf /etc/nut
+```
+
 ## Send us your feedback and contribute 
 We want to hear from you.
 
