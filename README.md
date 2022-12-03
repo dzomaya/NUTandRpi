@@ -412,9 +412,10 @@ NET-SNMP-EXTEND-MIB::nsExtendOutLine."battruntimeest".1 = STRING: 65535
 ## How to uninstall
 
 If you want to undo what the script did and uninstall the packages it installs, follow these steps.
+
 ⚠️ **Warning** `rm -rf` is mentioned and used in some of the steps below. `rm -rf` recursively deletes files. Be careful! 
 
-1. Use remove the packages the script installs with this command:
+1. Remove the packages the script installs with this command:
 
 ```
 sudo apt-get remove  nut nut-cgi snmp snmpd libsnmp-dev snmp-mibs-downloader
