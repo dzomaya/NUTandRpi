@@ -430,7 +430,7 @@ sudo apt-get autoremove
 ```
 sudo rm /etc/snmp/snmpd.conf
 ```
-*Note:* If you want to remove the MIB files in `/etc/snmp/` and the `/etc/snmp` directory completely, use `sudo rm /etc/snmp/`. 
+*Note:* If you want to remove the MIB files in `/etc/snmp/` and the `/etc/snmp` directory completely, use `sudo rm -rf /etc/snmp/`. 
 
 4. Remove the `/etc/nut` directory and it's contents:
 ```
